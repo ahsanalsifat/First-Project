@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+ }
+ section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 29px;
+
+}
+
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+
+section header ul li a{
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+section header ul li button{
+    background: #0ccb0c;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+
+
+section  .main{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section .main .searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+section .main .searchbox .search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 2px solid rgb(232, 224, 224);
+    outline: none;
+    font-size: 18px;
+}
+
+section .main .searchbox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+
+
+section .main .button{
+    margin-top: 20px;
+}
+section .main .button button{
+    margin: 0 5px;;
+    padding: 5px 10px;
+    color: rgba(246, 69, 5, 0.77);
+    font-size: 15px;
+    border: 1px ;
+}
+section .main .button button:hover{
+    border-radius: 10px solid rgb(15, 248, 132);
+    color: blueviolet;
+    background-color: burlywood;
+}
+.lang{
+    margin-top: 20px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fffafa;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+.row ul{
+    display: flex;
+}
+.row ul li{
+    list-style: none;
+}
+
+.row ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(97, 57, 9);
+    margin-right: 25px;
+}
